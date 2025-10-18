@@ -49,7 +49,7 @@ function growthRate($current, $previous) {
 $residentsRate = growthRate($residentsCount, $prevResidents);
 $householdsRate = growthRate($householdsCount, $prevHouseholds);
 $cedulasRate = growthRate($cedulasCount, $prevCedulas);
-$taxRate = growthRate($totalTaxIncome, $prevTaxIncome);
+$taxRate = growthRate($totalTaxIncome , $prevTaxIncome);
 
 // --- Residents per zone ---
 $zoneData = [];
